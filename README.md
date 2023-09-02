@@ -14,7 +14,7 @@ After inspecting the CSVs, create an ERD using Quick Database Diagrams.
 ## Data Engineering
 Create a table schema for each of the 6 CSV files with specific data types, primary keys, foreign keys, and constraints.
 
-```postgres
+```sql
 -- Create the table titles:
 CREATE TABLE titles(
 	title_id VARCHAR(30) PRIMARY KEY, 
